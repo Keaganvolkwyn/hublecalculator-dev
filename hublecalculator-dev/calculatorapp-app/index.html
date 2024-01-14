@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./Counter/assets/styles/app.css" />
+    <script src="./Counter/assets/scripts/main.js" defer></script>
+    <script src="./Counter/assets/scripts/app.js" defer></script>
+  </head>
+
+  <body>
+    <!-- calculator operator and input section starts here -->
+    <section id="calculator">
+      <!-- number input field -->
+      <input type="number" id="input-number" value="0"/>
+      <!-- calculator actions buttons start here -->
+      <div id="calc-actions">
+        <button type="button" id="btn-add">+</button>
+        <button type="button" id="btn-subtract">-</button>
+        <button type="button" id="btn-multiply">*</button>
+        <button type="button" id="btn-divide">/</button>
+      </div>
+      <!-- calculator actions buttons end here -->
+    </section>
+    <!-- calculator operator and input section ends here -->
+
+    <!-- calculator restults start here -->
+    <section id="results">
+      <h2 id="current-calculation">0</h2>
+      <h2>Result: <span id="current-result">0</span></h2>
+    </section>
+        <!-- calculator restults end here -->
+        
+  </body>
+</html>
